@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <!-- Splash screen background color -->
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <!-- <item name="splashScreenIconSize">512dp</item> -->
+
+        <!-- Logo for splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/diamond_animated</item>
+
+        <!-- Animation duration -->
+        <item name="windowSplashScreenAnimationDuration">1500</item>
+
+        <!-- Theme after splash screen -->
+        <item name="postSplashScreenTheme">@style/TestTheme</item>
+    </style>
+</resources>

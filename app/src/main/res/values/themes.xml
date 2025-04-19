@@ -1,0 +1,36 @@
+<resources>
+  <!--  <style name="Theme.Thriftr" parent="android:Theme.Material.Light.NoActionBar"> -->
+    <style name="Theme.Thriftr" parent="android:Theme.Material.NoActionBar">
+        <!-- Make status bar transparent -->
+      <!--  <item name="android:statusBarColor">@android:color/transparent</item> -->
+
+        <!-- Fullscreen for splash screen -->
+       <!-- <item name="android:windowFullscreen">true</item> -->
+
+        <!-- Optional: If you want a custom status bar color -->
+     <!--  <item name="android:statusBarColor">@color/black</item> -->
+    </style>
+
+  <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <!-- Splash screen background color -->
+       <item name="windowSplashScreenBackground">@color/white</item>
+      <!-- <item name="splashScreenIconSize">512dp</item> -->
+
+        <!-- Logo for splash screen -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/diamond_animated</item>
+
+        <!-- Animation duration -->
+        <item name="windowSplashScreenAnimationDuration">1500</item>
+
+        <!-- Theme after splash screen -->
+        <item name="postSplashScreenTheme">@style/TestTheme</item>
+    </style>
+
+
+    <style name="TestTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your app's theme here -->
+      <!--  <item name="android:statusBarColor">@android:color/transparent</item>  -->
+        <!--   <item name="android:navigationBarColor">@android:color/transparent</item>
+           <item name="android:windowLightStatusBar">true</item> -->
+       </style>
+   </resources>
